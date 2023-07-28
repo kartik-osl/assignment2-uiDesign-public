@@ -1,0 +1,131 @@
+*{
+    background-color: rgb(78, 83, 88);
+}
+
+body{
+    padding: 6rem 10rem;
+}
+
+.outermost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.circle {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background: #cc461d;
+}
+
+.border-text{
+    position: absolute;
+    margin-top: 1.5rem;
+    top: 3rem;
+    left: 8rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(0,0,0,0);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    background-color: transparent;
+}
+
+.text{
+    position: absolute;
+    top: 1.5rem;
+    left: 8rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.header{
+    position: relative;
+    margin: 3rem 0;
+    padding: 0 6rem;
+}
+
+.flex{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: space-between;  
+    width: 50%;
+    color: whitesmoke;
+    margin: 0 1rem;
+    padding: 0;
+    /* height: fit-content; */
+}
+
+.img{
+    height: 90%;
+    object-fit: contain;
+    /* width: auto; */
+}
+
+.text-right{
+    font-size: 1.75vw;
+    color: whitesmoke;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.author-right{
+    margin-bottom: 7rem;
+    font-weight: bold;
+}
+
+.page-index{
+    position: relative;
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+svg{
+    height: 1rem;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button{
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 300;
+    color: rgb(172, 172, 172);
+}
+
+button:active, button:hover{
+    color: whitesmoke;
+}
+
+.page-index:after{
+    content: "";
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    bottom: 1rem;
+    /* border-color: #ff6f00; */
+    /* overflow-x: hidden; */
+}
+
+.sb{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: space-between;
+    margin: 0;
+}
