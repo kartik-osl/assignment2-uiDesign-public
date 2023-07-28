@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    padding: 0.5rem 0.5rem;
+}
+
+.outermost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 1rem black;
+    border-radius: 1rem;
+}
+
+.circle {
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    margin: 0 2.5rem;
+    border-radius: 100%;
+    background: #f14400;
+}
+
+.header{
+    position: relative;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+
+.text{
+    position: absolute;
+    top: 1.6rem;
+    left: 5.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.main-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2.5rem;
+    /* justify-content: center; */
+    /* border: 1px solid blue; */
+}
+
+.dot{
+    position: absolute;
+    border-radius: 100%;
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 2rem 0;
+    border-right: 0.5px solid rgb(193, 193, 193);
+    /* border-left: 0.5px solid rgb(193, 193, 193); */
+    line-height: 2rem;
+}
+
+.sections:nth-child(4){
+    border: none;
+}
+.sections:nth-child(3){
+    border-left: 0.5px solid rgb(193, 193, 193);
+}
+
+.img{
+    object-fit: contain;
+    width: 92%;
+    height: auto;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 4%;
+}
+
+.sections-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.sections-linkedin{
+    width: 100%;
+}
+
+.sections-combo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+svg{
+    position: absolute;
+    top: 1rem;
+    left: 40%;
+    margin: 0 0 0 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .sections:first-child{
+        border-left: 0.5px solid rgb(193, 193, 193);
+    }
+    .sections:nth-child(4){
+        border-right: 0.5px solid rgb(193, 193, 193);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sections:nth-child(2){
+        border-left: 0.5px solid rgb(193, 193, 193);
+    }
+    .sections:nth-child(4){
+        border-left: 0.5px solid rgb(193, 193, 193);
+    }
+}
