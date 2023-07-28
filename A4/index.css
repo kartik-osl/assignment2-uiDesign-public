@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.circle {
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    background: #ff6f00;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 1.5rem;
+    left: 4rem;
+    font-size: 0.75rem;
+    font-weight: bolder;
+}
+
+.text2{
+    color: white;   
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+    font-size: 2rem;
+    font-weight: bolder;   
+}
+
+.header{
+    position: relative;
+}
+
+select{
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    width: 8%;
+    height: 3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+input{
+    width: 50%;
+    height: 3rem;
+    margin: 0;
+}
