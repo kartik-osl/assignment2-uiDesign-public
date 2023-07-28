@@ -15,7 +15,7 @@ body{
     height: 100vh;
     background: url(./Office.jpg) no-repeat;
     background-size: cover;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 h1{
@@ -32,7 +32,7 @@ p{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid grey;
+    border: 0.5px solid grey;
     background-color: rgba(0, 0, 0, 0.707);
     height: 100%;
     padding: 10%;
