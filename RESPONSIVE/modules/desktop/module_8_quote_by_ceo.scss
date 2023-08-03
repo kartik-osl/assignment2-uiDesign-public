@@ -1,0 +1,54 @@
+@media screen and (max-width: 600pt) {
+    .quote-by-ceo {
+
+        *:not(img, .page-index) {
+            padding: 1rem;
+        }
+
+        .heading {
+            font-family: 'proxima_nova_bold', arial;
+            font-size: 36pt;
+        }
+
+        .italic-text {
+            font-size: 26pt;
+            font-family: 'proxima_nova_reg', regular;
+            font-style: italic;
+            color: #555F64;
+        }
+
+        .bottom {
+            font-family: 'proxima_nova_bold', regular;
+            font-size: 16pt;
+            // font-weight: bolder;
+        }
+
+        img {
+            margin: 4rem 0;
+        }
+
+        .page-index {
+            display: flex;
+            justify-content: space-between;
+            padding: 90pt 0;
+        }
+
+        .page-index:after {
+            content: "";
+            border-bottom: 2px solid #E14B32;
+            padding-left: 25pt;
+            margin: 1.6rem;
+            position: relative;
+            float: right;
+        }
+
+        button {
+            width: 12.5%;
+            border: none;
+            background: transparent;
+            font-size: 16pt;
+            font-family: 'proxima_nova_reg', regular;
+
+        }
+    }
+}

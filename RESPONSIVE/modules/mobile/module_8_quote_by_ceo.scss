@@ -1,0 +1,194 @@
+@media screen and (max-width: 600pt) {
+    .quote-by-ceo {
+
+        *:not(img, .page-index) {
+            padding: 1rem;
+        }
+
+        .heading {
+            font-family: 'proxima_nova_bold', arial;
+            font-size: 36pt;
+        }
+
+        .italic-text {
+            font-size: 26pt;
+            font-family: 'proxima_nova_reg', regular;
+            font-style: italic;
+            color: #555F64;
+        }
+
+        .bottom {
+            font-family: 'proxima_nova_bold', regular;
+            font-size: 16pt;
+            // font-weight: bolder;
+        }
+
+        img {
+            margin: 4rem 0;
+        }
+
+        .page-index {
+            display: flex;
+            justify-content: space-between;
+            padding: 90pt 0;
+        }
+
+        .page-index:after {
+            content: "";
+            border-bottom: 2px solid #E14B32;
+            padding-left: 25pt;
+            margin: 1.6rem;
+            position: relative;
+            float: right;
+        }
+
+        button {
+            width: 12.5%;
+            border: none;
+            background: transparent;
+            font-size: 16pt;
+            font-family: 'proxima_nova_reg', regular;
+
+        }
+    }
+}
+
+@media screen and (min-width: 600pt) {
+    .quote-by-ceo {
+        padding: 6rem 10rem;
+        background: #555F64;
+
+        .header {
+            position: relative;
+            margin: 3rem 0;
+            padding: 0 6rem;
+
+            .text {
+                position: absolute;
+                top: 1.5rem;
+                left: 8rem;
+                font-size: 2rem;
+                font-weight: bolder;
+                background-color: transparent;
+                color: whitesmoke;
+            }
+
+
+            .circle {
+                position: relative;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 100%;
+                background: #cc461d;
+            }
+        }
+
+        .flex {
+            /* position: relative; */
+            display: flex;
+            flex-direction: column;
+            justify-items: flex-start;
+            align-content: space-between;
+            width: 50%;
+            color: whitesmoke;
+            margin: 0 1rem;
+            padding: 0;
+            /* height: fit-content; */
+
+            .page-index {
+                position: relative;
+                overflow: hidden;
+
+                /* display: flex; */
+                /* justify-content: flex-start; */
+                button {
+                    text-decoration: none;
+                    border: none;
+                    font-size: 1.5rem;
+                    margin-right: 1rem;
+                    font-weight: 300;
+                    color: rgb(172, 172, 172);
+                }
+
+                button:active,
+                button:hover {
+                    color: whitesmoke;
+                }
+
+            }
+
+            .page-index:after {
+                content: "";
+                position: absolute;
+                border: 1px solid red;
+                width: 100%;
+                bottom: 1rem;
+                /* border-color: #ff6f00; */
+                /* overflow-x: hidden; */
+            }
+
+            .block {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .text-right {
+                    font-size: 1.75vw;
+                    color: whitesmoke;
+                    font-style: italic;
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'proxima_nova_reg';
+                }
+
+                .author-right {
+                    margin-bottom: 7rem;
+                    font-weight: bold;
+                        
+                }
+            }
+        }
+
+        .border-text {
+            position: absolute;
+            margin-top: 1.5rem;
+            top: 3rem;
+            left: 8rem;
+            font-size: 2rem;
+            font-weight: bolder;
+            color: rgb(0, 0, 0, 0);
+            -webkit-text-stroke-color: white;
+            -webkit-text-stroke-width: 1px;
+            background-color: transparent;
+        }
+
+
+
+        .outermost {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+        }
+
+
+
+        .img {
+            height: 90%;
+            object-fit: contain;
+            /* width: auto; */
+        }
+
+        svg {
+            height: 1rem;
+        }
+
+        .sb {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-content: space-between;
+            margin: 0;
+        }
+    }
+}

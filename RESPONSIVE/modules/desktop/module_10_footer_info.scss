@@ -1,0 +1,17 @@
+@media screen and (max-width:375px) {
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        .content{
+            font-size: 2rem;
+        }
+        
+        .info, .medium {
+            display: block;
+            
+        }
+    }
+}

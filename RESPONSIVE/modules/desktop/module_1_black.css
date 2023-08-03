@@ -1,0 +1,119 @@
+@media screen and (max-width: 600pt) {
+  .black {
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .black .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .black .header .osl-logo > img {
+    transform: rotate(-30deg);
+    translate: 0.5rem 0rem;
+    width: 102pt;
+  }
+  .black .header .side-nav-right {
+    color: white;
+    list-style: none;
+    text-align: right;
+  }
+  .black .header .side-nav-right .nm-li,
+  .black .header .side-nav-right .sp-li {
+    font-family: "proxima_nova_bold", regular;
+    font-weight: bolder;
+    font-size: 18pt;
+    line-height: 34pt;
+  }
+  .black .header .side-nav-right .sp-li::before {
+    content: "";
+    border-bottom: 2px solid #E14B32;
+    padding-left: 20pt;
+    margin: 1.4rem 0.2rem;
+    float: left;
+  }
+  .black .text *:not(span) {
+    margin: 1rem;
+  }
+  .black .text .we-can {
+    width: 268pt;
+    font-size: 200pt;
+    letter-spacing: 0;
+    line-height: 180pt;
+  }
+  .black .text .small-note {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 18pt;
+  }
+  .black .text .black-bottom,
+  .black .text .black-bottom span {
+    font-family: "proxima_nova_reg", regular;
+    padding: 4rem 0;
+    font-size: 14pt;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .black {
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0 20rem;
+  }
+  .black .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .black .header .osl-logo > img {
+    transform: rotate(-30deg);
+    translate: 0.5rem 0;
+    width: 153pt;
+    aspect-ratio: 1/1;
+    padding: 30pt;
+  }
+  .black .header .side-nav-right {
+    font-size: 18pt;
+    display: flex;
+    color: white;
+    list-style: none;
+  }
+  .black .header .side-nav-right .nm-li,
+  .black .header .side-nav-right .sp-li {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 18pt;
+    margin: 52pt 10pt;
+  }
+  .black .header .side-nav-right .sp-li::before {
+    content: "";
+    border-bottom: 2px solid #E14B32;
+    padding-left: 45pt;
+    margin: 0.8rem;
+    float: left;
+  }
+  .black .text {
+    padding: 2rem;
+    width: 80%;
+    position: relative;
+  }
+  .black .text .we-can {
+    font-size: 220pt;
+    line-height: 180pt;
+  }
+  .black .text .small-note {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 24pt;
+  }
+  .black .text .black-bottom,
+  .black .text .black-bottom span {
+    position: absolute;
+    font-family: "proxima_nova_reg", regular;
+    padding: 5rem 0;
+    width: 320pt;
+    font-size: 14pt;
+    right: 20rem;
+  }
+}/*# sourceMappingURL=module_1_black.css.map */

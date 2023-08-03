@@ -1,0 +1,59 @@
+@media screen and (max-width: 600pt) {
+    .platform-engg {
+        // padding: 1rem;
+        background: #EBF0F0;
+
+        *:not(img) {
+            padding: 1rem;
+        }
+
+        .heading {
+            font-family: 'proxima_nova_bold', regular;
+            font-size: 36px;
+        }
+
+        .text {
+            font-size: 18pt;
+            font-family: 'proxima_nova_reg', regular;
+        }
+
+        .top {
+            font-size: 16pt;
+            font-family: 'proxima_nova_bold', regular;
+            margin-top: 72pt;
+            line-height: 28pt;
+        }
+
+        .bottom {
+            font-family: 'proxima_nova_reg', regular;
+            font-size: 16pt;
+            margin: 38pt 0;
+        }
+
+        .bottom::after {
+            content: "";
+            border-bottom: 2px solid #E14B32;
+            padding-left: 45pt;
+            margin: 0.75rem;
+            position: absolute;
+            float: right;
+        }
+
+        .center-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding-bottom: 64pt;
+
+            .outline-btn {
+                border: 2px solid #FAAF41;
+                background: #EBF0F0;
+                font-family: 'proxima_nova_reg', regular;
+                width: 200pt;
+                height: 48pt;
+                font-size: 16pt;
+            }
+        }
+    }
+}

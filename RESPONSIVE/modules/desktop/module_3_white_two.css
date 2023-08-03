@@ -1,0 +1,103 @@
+@media screen and (max-width: 600pt) {
+  .white-two {
+    background: #EBF0F0;
+  }
+  .white-two .heading-block {
+    padding: 32.5pt 0;
+    margin: 0 16pt;
+  }
+  .white-two .heading-block .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+  }
+  .white-two .heading-block .heading {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36pt;
+  }
+  .white-two .sub-block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .white-two .sub-block .design {
+    position: relative;
+    border: 0.5px solid #D9D9D9;
+    height: 270pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white-two .sub-block .design .numbering {
+    position: absolute;
+    top: 16pt;
+    left: 16pt;
+    color: #A5A5A5;
+    text-decoration: underline;
+  }
+  .white-two .sub-block .design .center-box {
+    border: 0.5px solid #D9D9D9;
+    height: 66pt;
+    width: 130pt;
+  }
+  .white-two .sub-block .design .center-box div {
+    height: 24pt;
+    width: 24pt;
+    border: 1px solid firebrick;
+  }
+  .white-two .sub-block .design .center-box p {
+    font-size: 30pt;
+    font-family: "proxima_nova_reg", regular;
+  }
+}
+@media screen and (min-width: 600pt) {
+  .white-two {
+    background: #EBF0F0;
+  }
+  .white-two .heading-block {
+    padding: 32.5pt 0;
+    margin: 0 16pt;
+  }
+  .white-two .heading-block .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+  }
+  .white-two .heading-block .heading {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36pt;
+  }
+  .white-two .sub-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .white-two .sub-block .design {
+    position: relative;
+    border: 0.5px solid #D9D9D9;
+    height: 270pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white-two .sub-block .design .numbering {
+    position: absolute;
+    top: 16pt;
+    left: 16pt;
+    color: #A5A5A5;
+    text-decoration: underline;
+  }
+  .white-two .sub-block .design .center-box {
+    border: 0.5px solid #D9D9D9;
+    height: 66pt;
+    width: 130pt;
+  }
+  .white-two .sub-block .design .center-box div {
+    height: 24pt;
+    width: 24pt;
+    border: 1px solid firebrick;
+  }
+  .white-two .sub-block .design .center-box p {
+    font-size: 30pt;
+    font-family: "proxima_nova_reg", regular;
+  }
+}/*# sourceMappingURL=module_3_white_two.css.map */
