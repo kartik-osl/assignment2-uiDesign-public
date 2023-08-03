@@ -1,0 +1,38 @@
+@media screen and (max-width: 600pt) {
+  .case-study {
+    padding: 1rem;
+    padding-top: 96pt 0;
+    background: #EBF0F0;
+  }
+  .case-study .text {
+    font-size: 16pt;
+    font-family: "proxima_nova_reg", regular;
+  }
+  .case-study .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+    margin-top: 72pt;
+  }
+  .case-study .heading,
+  .case-study .heading > span {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36px;
+  }
+  .case-study .heading > span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+  }
+  .case-study .bottom {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 16pt;
+    margin: 38pt 0;
+  }
+  .case-study .bottom::after {
+    content: "";
+    border-bottom: 2px solid #FAAF41;
+    padding-left: 45pt;
+    margin: 0.6rem;
+    position: absolute;
+    float: right;
+  }
+}/*# sourceMappingURL=module_6_case_study.css.map */

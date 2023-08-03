@@ -1,0 +1,40 @@
+@media screen and (max-width: 600pt) {
+  .white {
+    background: #EBF0F0;
+  }
+  .white .left {
+    padding: 32.5pt 0;
+    margin: 0 16pt;
+  }
+  .white .left .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+  }
+  .white .left .heading,
+  .white .left .heading > span {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36pt;
+  }
+  .white .left .heading > span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+  }
+  .white .right {
+    padding: 32.5pt 0;
+    margin: 0 16pt;
+  }
+  .white .right .text,
+  .white .right .bottom {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 16pt;
+    margin: 38pt 0;
+  }
+  .white .right .bottom::after {
+    content: "";
+    border-bottom: 2px solid #E14B32;
+    padding-left: 45pt;
+    margin: 0.6rem;
+    position: absolute;
+    float: right;
+  }
+}/*# sourceMappingURL=module_2_white.css.map */

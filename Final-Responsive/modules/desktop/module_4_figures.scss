@@ -1,0 +1,25 @@
+@media screen and (max-width: 600pt) {
+    .figures {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        background: #EBF0F0;
+
+        .sections {
+            padding-top: 64pt;
+
+            .number {
+                text-align: center;
+                font-size: 100pt;
+                font-family: 'Bebas Neue', sans-serif;
+            }
+
+            .fig-text {
+                text-align: center;
+                font-family: 'proxima_nova_reg', regular;
+                font-size: 30pt;
+            }
+        }
+    }
+}

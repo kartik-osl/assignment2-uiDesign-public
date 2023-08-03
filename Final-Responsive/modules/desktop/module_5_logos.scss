@@ -1,0 +1,54 @@
+@media screen and (max-width: 600pt) {
+    .logos {
+        padding-top: 84pt;
+        background: #EBF0F0;
+
+        .head {
+            padding: 1rem;
+
+            .top {
+                font-size: 16pt;
+                font-family: 'proxima_nova_bold', regular;
+            }
+
+            .heading,
+            .heading>span {
+                font-family: 'proxima_nova_bold', regular;
+                font-size: 36pt;
+            }
+
+            .heading>span {
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 1px;
+            }
+
+            .bottom {
+                font-family: 'proxima_nova_reg', regular;
+                font-size: 16pt;
+                margin: 38pt 0;
+            }
+
+            .bottom::after {
+                content: "";
+                border-bottom: 2px solid #3787C8;
+                padding-left: 45pt;
+                margin: 0.6rem;
+                position: absolute;
+                float: right;
+            }
+        }
+
+        .blocks {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+
+            .sub-blocks {
+                width: 113px;
+                height: 99px;
+                border: 1px solid gray;
+                margin-bottom: 20pt;
+            }
+        }
+    }
+}

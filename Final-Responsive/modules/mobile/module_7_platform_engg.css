@@ -1,0 +1,100 @@
+@media screen and (max-width: 600pt) {
+  .platform-engg {
+    background: #EBF0F0;
+  }
+  .platform-engg *:not(img) {
+    padding: 1rem;
+  }
+  .platform-engg .heading {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36px;
+  }
+  .platform-engg .text {
+    font-size: 18pt;
+    font-family: "proxima_nova_reg", regular;
+  }
+  .platform-engg .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+    margin-top: 72pt;
+    line-height: 28pt;
+  }
+  .platform-engg .bottom {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 16pt;
+    margin: 38pt 0;
+  }
+  .platform-engg .bottom::after {
+    content: "";
+    border-bottom: 2px solid #E14B32;
+    padding-left: 45pt;
+    margin: 0.75rem;
+    position: absolute;
+    float: right;
+  }
+  .platform-engg .center-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 64pt;
+  }
+  .platform-engg .center-btn .outline-btn {
+    border: 2px solid #FAAF41;
+    background: #EBF0F0;
+    font-family: "proxima_nova_reg", regular;
+    width: 200pt;
+    height: 48pt;
+    font-size: 16pt;
+  }
+}
+@media screen and (min-width: 600pt) {
+  .platform-engg {
+    background: #EBF0F0;
+  }
+  .platform-engg *:not(img) {
+    padding: 1rem;
+  }
+  .platform-engg .heading {
+    font-family: "proxima_nova_bold", regular;
+    font-size: 36px;
+  }
+  .platform-engg .text {
+    font-size: 18pt;
+    font-family: "proxima_nova_reg", regular;
+  }
+  .platform-engg .top {
+    font-size: 16pt;
+    font-family: "proxima_nova_bold", regular;
+    margin-top: 72pt;
+    line-height: 28pt;
+  }
+  .platform-engg .bottom {
+    font-family: "proxima_nova_reg", regular;
+    font-size: 16pt;
+    margin: 38pt 0;
+  }
+  .platform-engg .bottom::after {
+    content: "";
+    border-bottom: 2px solid #E14B32;
+    padding-left: 45pt;
+    margin: 0.75rem;
+    position: absolute;
+    float: right;
+  }
+  .platform-engg .center-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 64pt;
+  }
+  .platform-engg .center-btn .outline-btn {
+    border: 2px solid #FAAF41;
+    background: #EBF0F0;
+    font-family: "proxima_nova_reg", regular;
+    width: 200pt;
+    height: 48pt;
+    font-size: 16pt;
+  }
+}/*# sourceMappingURL=module_7_platform_engg.css.map */

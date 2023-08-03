@@ -1,0 +1,202 @@
+@media screen and (max-width: 600pt) {
+    .black {
+        background: #000;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+
+            .osl-logo>img {
+                transform: rotate(-30deg);
+                translate: 0.5rem 0rem;
+                width: 102pt;
+                // aspect-ratio: 1/1;
+            }
+
+            .side-nav-right {
+                color: white;
+                list-style: none;
+                text-align: right;
+
+                .nm-li,
+                .sp-li {
+                    font-family: 'proxima_nova_bold', regular;
+                    font-weight: bolder;
+                    font-size: 18pt;
+                    line-height: 34pt;
+                }
+
+                .sp-li::before {
+                    content: "";
+                    border-bottom: 2px solid #E14B32;
+                    padding-left: 20pt;
+                    margin: 1.4rem 0.2rem;
+                    float: left;
+                }
+            }
+        }
+
+        .text {
+
+            *:not(span) {
+                margin: 1rem;
+            }
+
+            .we-can {
+                width: 268pt;
+                font-size: 200pt;
+                letter-spacing: 0;
+                line-height: 180pt;
+            }
+
+            .small-note {
+                font-family: 'proxima_nova_reg', regular;
+                font-size: 18pt;
+            }
+
+            .black-bottom,
+            .black-bottom span {
+                font-family: 'proxima_nova_reg', regular;
+                padding: 4rem 0;
+                font-size: 14pt;
+            }
+        }
+    }
+}
+
+
+//DESKTOP APPROACH
+@media screen and (min-width:1000px) {
+    .black {
+        background: #000;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0 20rem;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            .osl-logo>img {
+                transform: rotate(-30deg);
+                translate: 0.5rem 0;
+                width: 102 * 1.5pt;
+                aspect-ratio: 1/1;
+                padding: 30pt;
+            }
+
+            .side-nav-right {
+                font-size: 18pt;
+                display: flex;
+                color: white;
+                list-style: none;
+                // text-align: right;
+
+                .nm-li,
+                .sp-li {
+                    font-family: 'proxima_nova_bold', regular;
+                    font-size: 18pt;
+                    margin: 52pt 10pt;
+                    // width: 50%;
+                    // width: 15vw;
+                    // line-height: 34pt;
+                }
+
+                .sp-li::before {
+                    content: "";
+                    border-bottom: 2px solid #E14B32;
+                    padding-left: 45pt;
+                    margin: 0.8rem;
+                    float: left;
+                }
+            }
+        }
+
+        .text {
+            padding: 2rem;
+            width: 80%;
+            position: relative;
+
+            .we-can {
+                font-size: 220pt;
+                line-height: 180pt;
+            }
+
+            .small-note {
+                font-family: 'proxima_nova_reg', regular;
+                font-size: 24pt;
+            }
+
+            .black-bottom,
+            .black-bottom span {
+                position: absolute;
+                font-family: 'proxima_nova_reg', regular;
+                padding: 5rem 0;
+                width: 320pt;
+                font-size: 14pt;
+                right: 20rem;
+            }
+        }
+    }
+
+    // .white {
+    //     background: #EBF0F0;
+    //     display: flex;
+    //     justify-content: space-around;
+
+    //     .left,
+    //     .right {
+    //         width: 465pt;
+    //     }
+
+    //     .left {
+    //         padding: 32.5pt 0;
+    //         margin: 0 16pt;
+
+    //         .top {
+    //             font-size: 18pt;
+    //             font-family: 'proxima_nova_bold', regular;
+    //         }
+
+    //         .heading,
+    //         .heading>span {
+    //             font-family: 'proxima_nova_bold', regular;
+    //             font-size: 48pt;
+    //         }
+
+    //         .heading>span {
+    //             -webkit-text-fill-color: transparent;
+    //             -webkit-text-stroke: 1px;
+    //         }
+
+    //     }
+
+    //     .right {
+    //         padding: 32.5pt 0;
+    //         margin: 0 16pt;
+
+    //         .text,
+    //         .bottom {
+    //             font-family: 'proxima_nova_reg', regular;
+    //             font-size: 16pt;
+    //             margin: 38pt 0;
+    //             line-height: 36pt;
+    //         }
+
+    //         .bottom::after {
+    //             content: "";
+    //             border-bottom: 2px solid #E14B32;
+    //             padding-left: 45pt;
+    //             margin: 1.5rem;
+    //             position: absolute;
+    //             float: right;
+    //         }
+    //     }
+}
